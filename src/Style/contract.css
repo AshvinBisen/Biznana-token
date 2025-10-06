@@ -1,0 +1,155 @@
+.tokenomics {
+    padding: 50px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section10 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px;
+    gap: 20px;
+}
+
+.s10one, .s10three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.s10head {
+    font-family: Titillium Web;
+    font-size: 68px;
+    font-weight: 600;
+    line-height: 80px;
+    text-align: center;
+    background: linear-gradient(98.05deg, #FFBB00 20%, #FFE09C 35.27%, #FFBB00 72.47%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+}
+
+
+.s02button {
+    display: flex;
+    width: 200px;
+    height: 44px;
+    border-radius: 5px;
+    background: linear-gradient(98.4deg, #FFBB00 4.24%, #FFE09C 49.89%, #FFBB00 95.55%);
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: none;
+}
+
+.s02button .text {
+    font-family: Titillium Web;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center; 
+    color: #000;
+
+}
+
+.s10para {
+    font-family: Titillium Web;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    border: 1px solid #FFBB00;
+    border-radius: 15px;
+    padding: 18px 30px;
+}
+
+@media (max-width: 767px) {
+
+      .tokenomics {
+        padding: 50px 20px;
+    }
+    .section10 {
+        padding: 10px;
+    }
+
+    .s10head {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    .new2 {
+        font-size: 19px;
+        padding: 5px 10px;
+    }
+
+    .s02button {
+        width: 180px;
+        height: 40px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    
+    .tokenomics {
+        padding: 50px 10px;
+    }
+
+    .textt {
+        font-size: 14px;
+        text-align: center;
+    }
+    
+    .section10 {
+        padding: 10px ;
+        width: 300px;
+    }
+
+    .s10head {
+        font-size: 32px;
+    }
+
+    .new2 {
+        font-size: 15px;
+        padding: 0;
+    }
+
+    .s02button {
+        width: 170px;
+        height: 38px;
+    }
+
+    .s02button .text {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .text-one {
+    font-size: 10px;
+   }
+}
+
+@media (max-width: 365px) {
+    .section10 {
+        padding: 10px ;
+        width: 260px;
+    }
+
+   .text-one {
+    font-size: 10px;
+   }
+}
+    
+
+
+
+
