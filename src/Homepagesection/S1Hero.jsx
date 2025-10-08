@@ -94,7 +94,7 @@ const S1Hero = memo(function S1Hero() {
     data-aos-delay="600"
     onClick={handleDownload}
   >
-    Download Img
+    Download $BIZNA
   </button>
 </div>
 
@@ -155,7 +155,7 @@ const S1Hero = memo(function S1Hero() {
                     Laugh. Trade. Grow. Repeat.
                   </h2>
                   <p className="text-lg lg:text-2xl ">
-                    Whether you're brewing chai on the corner or building the
+                    Whether you're brewing Tea on the corner or building the
                     next big tech thing—if you've got the grind, $BIZNA has your
                     back. Big or small, we’re here to help you go viral.
                   </p>
@@ -168,7 +168,7 @@ const S1Hero = memo(function S1Hero() {
                     className="hidden lg:block lg:absolute w-full"
                   />
                   <p className="text-center sm:text-left text-lg md:text-2xl lg:text-4xl lg:w-[55%] px-5 md:px-5 lg:px-16 mt-0 md:mt-5 lg:mt-24 xl:mt-44 2xl:mt-40 relative z-10">
-                    Every dream counts — from chai stalls to crypto calls.
+                    Every dream counts — from Tea stalls to crypto calls.
                   </p>
                 </div>
               </div>

@@ -6,7 +6,6 @@ import "swiper/css/autoplay";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "../index.css";
-// import "../Homepagesection/Usecase.css";
 
 import logo1 from "../assets/BiznanaImages/partners/1.png";
 import logo2 from "../assets/BiznanaImages/partners/2.png";
@@ -33,13 +32,36 @@ import logo22 from "../assets/BiznanaImages/partners/22.png";
 import logo23 from "../assets/BiznanaImages/partners/23.png";
 import logo24 from "../assets/BiznanaImages/partners/24.png";
 import logo25 from "../assets/BiznanaImages/partners/25.png";
+import logo26 from "../assets/BiznanaImages/partners/26.png";
 
-const logos = [
-  logo1, logo2, logo3, logo4, logo5,
-  logo6, logo7, logo8, logo9, logo10,
-  logo11, logo12, logo13, logo14, logo15,
-  logo16, logo17, logo18, logo19, logo20,
-  logo21, logo22, logo23, logo24, logo25,
+
+const partners = [
+  { logo: logo1},
+  { logo: logo2},
+  { logo: logo3},
+  { logo: logo4},
+   { logo: logo5, link: " https://pump.fun/coin/7P5mdT2UpGJ7Eiz9Vch3HT51MamMnvLko2ByEe1mNccw" },
+  { logo: logo6},
+  { logo: logo7 },
+  { logo: logo8},
+  { logo: logo9},
+  { logo: logo10 },
+  { logo: logo11, link: "https://gemfinder.cc/gem/27966" },
+  { logo: logo12 },
+  { logo: logo13 },
+  { logo: logo14},
+  { logo: logo15},
+  { logo: logo16},
+  { logo: logo17, link: "https://mycoinvote.com/submitCoin" },
+  { logo: logo18, link: "https://cointoplist.net/" },
+  { logo: logo19, link: "https://www.coinscope.co/coin/bizna" },
+  { logo: logo20, link: "https://coingem.com/" },
+  { logo: logo21 },
+  { logo: logo22 },
+  { logo: logo23, link: "https://blockspot.io/" },
+  { logo: logo24 },
+  { logo: logo25},
+  { logo: logo26, link: "https://www.coingabbar.com/en/crypto-airdrops/biznana-big-crypto-airdrops-memecoin-project" },
 ];
 
 const S3Partners = memo(function S3Partners() {
@@ -56,10 +78,12 @@ const S3Partners = memo(function S3Partners() {
       id="partners"
       className="w-full py-8 lg:py-16 px-5 md:px-8 lg:px-12 text-center"
     >
-
-            <h1 data-aos="fade-up"  className="text-xl font-comic sm:text-2xl md:text-3xl lg:text-5xl uppercase font-bold mb-12 lg:mb-20 " > 
-              Strategic Partners
-            </h1>
+      <h1
+        data-aos="fade-up"
+        className="text-xl font-comic sm:text-2xl md:text-3xl lg:text-5xl uppercase font-bold mb-12 lg:mb-20"
+      >
+        Strategic Partners
+      </h1>
 
       <Swiper
         modules={[Autoplay]}
@@ -68,7 +92,7 @@ const S3Partners = memo(function S3Partners() {
         slidesPerView={1}
         spaceBetween={25}
         breakpoints={{
-            480: { slidesPerView: 2 },
+          480: { slidesPerView: 2 },
           640: { slidesPerView: 3 },
           768: { slidesPerView: 3 },
           1024: { slidesPerView: 5 },
@@ -76,13 +100,20 @@ const S3Partners = memo(function S3Partners() {
         }}
         className="w-full"
       >
-        {logos.map((logo, index) => (
+        {partners.map((partner, index) => (
           <SwiperSlide key={index} className="flex items-center justify-center">
-            <img
-              src={logo}
-              alt={`partner-${index}`}
-              className="w-56 h-16 object-contain border border-gray-200 rounded-lg shadow-md p-2 bg-black"
-            />
+            <a
+              href={partner.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block transition-transform transform hover:scale-105"
+            >
+              <img
+                src={partner.logo}
+                alt={`partner-${index}`}
+                className="w-56 h-16 object-contain border border-gray-200 rounded-lg shadow-md p-2 bg-black"
+              />
+            </a>
           </SwiperSlide>
         ))}
       </Swiper>

@@ -12,6 +12,7 @@ import Presale from "./MainComponent/Presale.jsx";
 import { createAppKit } from "@reown/appkit/react";
 import { EthersAdapter } from "@reown/appkit-adapter-ethers";
 import { bsc } from "@reown/appkit/networks";
+import PopupImage from "./Homepagesection/PopupImage.jsx";
 
 const Homepage = lazy(() => import("./MainComponent/Homepage"));
 // 1. Get projectId
@@ -49,7 +50,9 @@ const App = () => {
   }, []);
   return (
     <Router>
+      <PopupImage/>
       <Headroom>
+     
         <Navbar />
       </Headroom>
       <ScrollToTop />
