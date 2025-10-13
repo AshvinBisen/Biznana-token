@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { FaTimesCircle } from "react-icons/fa";
-import popupImg from "../assets/BiznanaImages/popup.png"; // ✅ your image path
+import popupImg from "../assets/BiznanaImages/popup.png"; 
 
 const PopupImage = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -33,7 +33,7 @@ const PopupImage = () => {
 
        
         <a
-          href="https://x.com/biznana_meme" 
+          href="https://t.me/Biznana_bot" 
           target="_blank" 
           rel="noopener noreferrer"
           onClick={closePopup} 

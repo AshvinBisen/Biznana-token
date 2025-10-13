@@ -2,7 +2,7 @@ import { useEffect, memo } from "react";
 import "../index.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import aboutImage from "../assets/BiznanaImages/ab_img.jpg"
+import aboutImage from "../assets/BiznanaImages/Biznana_story.png"
 
 
 const MyStory = memo(() => {
