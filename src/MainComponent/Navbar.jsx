@@ -166,7 +166,7 @@ const Navbar = () => {
               </Link>
             </li> */}
 
-            {/* <li className="md:border-none border-b-[2px] border-[#E3E5E6]">
+            <li className="md:border-none border-b-[2px] border-[#E3E5E6]">
               <Link smooth to="/#howtobuy" onClick={closeMenu}>
                 <div
                   className="uppercase font-semibold block py-2 px-3      hover:bg-gray-700 md:hover:bg-transparent md:p-0  hover:border-b-2 hover:border-[#E3E5E6] transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-100  duration-300 
@@ -175,7 +175,7 @@ const Navbar = () => {
                   How to buy
                 </div>
               </Link>
-            </li> */}
+            </li>
 
             {/* <li className="md:border-none border-b-[2px] border-[#E3E5E6] ">
               <Link smooth to="/#presale" onClick={closeMenu}>

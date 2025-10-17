@@ -10,7 +10,7 @@ const Mystory = React.lazy(() => import("../Homepagesection/MyStory.jsx"));
 const StrategicPartners = React.lazy(() => import("../Homepagesection/StrategicPartners.jsx"));
 const Tokenomics = React.lazy(() => import("../Homepagesection/S4Tokenomics.jsx"));
 const Contract = React.lazy(() => import("../Homepagesection/Contract.jsx"));
-// const HowToBuy = React.lazy(() => import("../Homepagesection/HowToBuy.jsx"));
+const HowToBuy = React.lazy(() => import("../Homepagesection/HowToBuy.jsx"));
 const ContractAddress = React.lazy(() => import("../Homepagesection/S7Contractaddress.jsx"));
 
 const Homepage = () => {
@@ -29,9 +29,9 @@ const Homepage = () => {
       {/* <About /> */}
       {/* <Usecase /> */}
       <StrategicPartners />
+      <HowToBuy />  
       <Tokenomics />
       <Contract />
-      {/* <HowToBuy /> */}
       {/* <FAQSection/> */}
       <ContractAddress />
     </Suspense>
