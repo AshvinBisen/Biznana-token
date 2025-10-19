@@ -69,11 +69,14 @@ const Navbar = () => {
           <div className="flex gap-3 sm:gap-1   items-center">
             {/* <Link smooth to="/presale" onClick={closeMenu}> */}
               <div className="flex md:gap-8 ">
-                {/* <button
+                <a
                   className="relative sm:px-20 sm:py-5  px-12 py-1 font-nunito font-bold shadow-md  shadow-[#ffffff8e]   border border-white  h-9 sm:h-full"
-                  onClick={() => navigate("/presale")} >
+                  href="https://pancakeswap.finance/swap?inputCurrency=0x55d398326f99059fF775485246999027B3197955&outputCurrency=0x3835cC32ebf60748aC052948B67B7dd526F839Cd"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Buy Now
-                </button> */}
+                </a>
                  {/* <a href="https://www.reddit.com/user/Biznana_Meme" target="_blank">
                   <img src={reddit} className="h-10 w-10" alt="twi" />
                 </a>
