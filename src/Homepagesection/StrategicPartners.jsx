@@ -43,7 +43,7 @@ const partners = [
    { logo: logo5, link: " https://pump.fun/coin/7P5mdT2UpGJ7Eiz9Vch3HT51MamMnvLko2ByEe1mNccw" },
   { logo: logo6, link: "https://poocoin.app/tokens/0x3835cc32ebf60748ac052948b67b7dd526f839cd" },
   { logo: logo7 },
-  { logo: logo8},
+  { logo: logo8, link: "https://pancakeswap.finance/swap?inputCurrency=0x55d398326f99059fF775485246999027B3197955&outputCurrency=0x3835cC32ebf60748aC052948B67B7dd526F839Cd" },
   { logo: logo9},
   { logo: logo10, link: "https://honeypot.is/?address=0x3835cC32ebf60748aC052948B67B7dd526F839Cd" },
   { logo: logo11, link: "https://gemfinder.cc/gem/27966" },
